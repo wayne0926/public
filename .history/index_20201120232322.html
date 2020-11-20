@@ -16,13 +16,13 @@
   <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">
       <img src="https://cdn.jsdelivr.net/gh/wayne0926/wayne0926/favicon.ico" width="30" height="30"
-        class="d-inline-block align-center" alt="logo">
+        class="d-inline-block align-top" alt="logo">
       疯狂盟会官网
     </a>
   </nav>
   <div class="jumbotron">
     <div class="container">
-      <h1><img src="https://cdn.jsdelivr.net/gh/wayne0926/wayne0926/favicon.ico" width="40" height="40"
+      <h1><img src="https://cdn.jsdelivr.net/gh/wayne0926/wayne0926/favicon.ico" width="50" height="50"
           class="d-inline-block align-center" alt="logo">疯狂盟会官网</h1>
       <div class="alert alert-dark" role="alert">
         欢迎来到疯狂盟会官网，请登录！
@@ -30,8 +30,7 @@
       <form>
         <div class="form-group">
           <label>用户名</label>
-          <input type="username" class="form-control" id="username"
-            onkeydown="if(event.keyCode==13) document.all.login.click()">
+          <input type="username" class="form-control" id="username">
           <small class="form-text text-muted">你可以去找“夏肥童”要……</small>
         </div>
         <div class="form-group">
@@ -46,28 +45,6 @@
         </div>
         <button type="button" class="btn btn-primary" onclick="myFunction()" id="login">登录</button>
       </form>
-
-      <!-- 隐藏的提示按钮 -->
-      <button type="button" class="d-none" data-toggle="modal" data-target="#exampleModal" id="tishi"></button>
-
-      <!-- 模态框 -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">错误！</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              账户或密码错误，请重新输入
-            </div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
   <div class="container">

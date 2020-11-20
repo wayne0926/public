@@ -23,7 +23,8 @@ function myFunction() {
                 Cookies.remove('password')
             }
         }
-        $("#tishi").click(); 
+        alert("用户名或密码错误");
+        $("#closeb").click(); 
     }
 }
 function login() {

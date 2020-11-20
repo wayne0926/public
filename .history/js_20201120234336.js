@@ -23,7 +23,7 @@ function myFunction() {
                 Cookies.remove('password')
             }
         }
-        $("#tishi").click(); 
+        $("#closeb").click(); 
     }
 }
 function login() {
