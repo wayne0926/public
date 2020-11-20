@@ -9,7 +9,7 @@ function myFunction() {
     // var pp = document.getElementById("password").value;
     // var su = us.indexOf(md5(document.getElementById("username").value))
     if (us.indexOf(md5(document.getElementById("username").value)) != '-1') {
-        // var sp = ps[us.indexOf(md5(document.getElementById("username").value))]
+        var sp = ps[us.indexOf(md5(document.getElementById("username").value))]
     }
     if (us.indexOf(md5(document.getElementById("username").value)) != '-1', ps[us.indexOf(md5(document.getElementById("username").value))] == md5(document.getElementById("password").value)) {
         Cookies.set('username', BASE64.encode(document.getElementById("username").value), { expires: 3 })
@@ -30,14 +30,14 @@ function myFunction() {
 }
 function login() {
     if (Cookies.get('username') != null) {
-        // var gu = BASE64.decode(Cookies.get('username'))
+        var gu = BASE64.decode(Cookies.get('username'))
         if (Cookies.get('password') != null) {
-            // let gp = BASE64.decode(Cookies.get('password'))
-            // let gur = us.indexOf(md5(BASE64.decode(Cookies.get('username'))))
-            if (us.indexOf(md5(BASE64.decode(Cookies.get('username')))) != '-1') {
-                // var gpr = ps[us.indexOf(md5(BASE64.decode(Cookies.get('username'))))]
+            let gp = BASE64.decode(Cookies.get('password'))
+            let gur = us.indexOf(md5(gu))
+            if (gur != '-1') {
+                var gpr = ps[gur]
             }
-            if (us.indexOf(md5(BASE64.decode(Cookies.get('username')))) != '-1', ps[us.indexOf(md5(BASE64.decode(Cookies.get('username'))))] == md5(BASE64.decode(Cookies.get('password')))) {
+            if (gur != '-1', gpr == md5(gp)) {
                 console.log('登录成功')
                 window.location.href = "/user"
             }

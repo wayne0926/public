@@ -69,7 +69,7 @@ function start() {
             // let gp = BASE64.decode(Cookies.get('password'))
             // let gur = us.indexOf(md5(BASE64.decode(Cookies.get('username'))))
             if (us.indexOf(md5(BASE64.decode(Cookies.get('username')))) != '-1') {
-                // var gpr = ps[us.indexOf(md5(BASE64.decode(Cookies.get('username'))))]
+                var gpr = ps[us.indexOf(md5(BASE64.decode(Cookies.get('username'))))]
             }
             if (us.indexOf(md5(BASE64.decode(Cookies.get('username')))) != '-1', ps[us.indexOf(md5(BASE64.decode(Cookies.get('username'))))] == md5(BASE64.decode(Cookies.get('password')))) {
                 document.getElementById('welcome').innerHTML = BASE64.decode(Cookies.get('username'))
