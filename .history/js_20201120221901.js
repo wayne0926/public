@@ -1,7 +1,7 @@
-let u1 = 'fe01ce2a7fbac8fafaed7c982a04e229'
-let p1 = 'fe01ce2a7fbac8fafaed7c982a04e229'
-var us = [u1,]
-var ps = [p1,]
+let u2 = 'fe01ce2a7fbac8fafaed7c982a04e229'
+let p2 = 'fe01ce2a7fbac8fafaed7c982a04e229'
+var us = [u1,u2]
+var ps = [p1,p2]
 function myFunction() {
     // var uu = document.getElementById("username").value;
     // var pp = document.getElementById("password").value;
