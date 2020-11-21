@@ -1,11 +1,11 @@
 const u1 = 'fe01ce2a7fbac8fafaed7c982a04e229'
 const p1 = 'fe01ce2a7fbac8fafaed7c982a04e229'
 const us = {
-    '0' = 'fe01ce2a7fbac8fafaed7c982a04e229'
+    '0' : 'fe01ce2a7fbac8fafaed7c982a04e229'
     }
 // [u1,]
 const ps = {
-    '0' = 'fe01ce2a7fbac8fafaed7c982a04e229'
+    '0' : 'fe01ce2a7fbac8fafaed7c982a04e229'
     }
 // [p1,]
 function myFunction() {
